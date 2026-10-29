@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5c1a1b" />
+  <meta name="description" content="Aarudra Natiyalaya - A traditional Bharatanatyam academy under Guru Sureka Manoj Kumar, teaching classical dance with discipline, expression, rhythm and devotion. Classes at Walajapet and Puthur, Panapakkam." />
+  <title>Aarudra Natiyalaya | Bharatanatyam Classical Dance Academy</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <!-- Google Fonts: Cormorant Garamond (headings) + Poppins (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== TEMPLE DOOR OPENING ANIMATION ===== -->
+  <div class="temple-doors" id="templeDoors" aria-hidden="true">
+    <div class="door door-left">
+      <div class="door-inner">
+        <span class="door-emblem"><i class="bi bi-brightness-high-fill"></i></span>
+      </div>
+    </div>
+    <div class="door door-right">
+      <div class="door-inner">
+        <span class="door-emblem"><i class="bi bi-brightness-high-fill"></i></span>
+      </div>
+    </div>
+    <div class="door-loader">
+      <span class="door-loader-title">Aarudra Natiyalaya</span>
+      <span class="door-loader-sub">Entering the Temple of Dance</span>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top site-navbar" id="siteNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-mark"><i class="bi bi-flower1"></i></span>
+        <span class="brand-text">Aarudra Natiyalaya<small>Bharatanatyam Academy</small></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#guru">Guru</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="images/hero-dancer.png" alt="Bharatanatyam dancer in an elegant classical pose" class="hero-img" />
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-7 text-center text-lg-start">
+          <p class="hero-eyebrow reveal">॥ Natya Vandana ॥</p>
+          <h1 class="hero-title reveal">Aarudra<br /><span>Natiyalaya</span></h1>
+          <p class="hero-lead reveal">Preserving the Tradition of Bharatanatyam &mdash; teaching classical dance with discipline, expression, rhythm, devotion and cultural values under Guru Sureka Manoj Kumar.</p>
+          <div class="hero-actions reveal">
+            <a href="#courses" class="btn btn-gold btn-lg">Begin Your Journey</a>
+            <a href="#gallery" class="btn btn-outline-cream btn-lg">View Performances</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll to about section">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal">
+          <div class="about-images">
+            <img src="images/gallery-5.png" alt="Dancer seated in a graceful pose beside a temple pillar" class="about-img-main" />
+            <img src="images/gallery-3.png" alt="Close-up of a classical dance mudra hand gesture" class="about-img-accent" />
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <span class="section-eyebrow">The Sacred Art</span>
+          <h2 class="section-title text-start">About Our Academy</h2>
+          <p class="section-lead text-start">Aarudra Natiyalaya is a traditional Bharatanatyam academy focused on teaching classical dance with <em>discipline, expression, rhythm, devotion</em> and cultural values.</p>
+          <p>Originating in the temples of Tamil Nadu over two thousand years ago, Bharatanatyam is a divine union of <em>Bhava</em> (expression), <em>Raga</em> (melody), <em>Tala</em> (rhythm), and <em>Natya</em> (drama). At our academy, every student learns not only the technique but the heritage, devotion, and grace behind each movement &mdash; carrying forward a timeless parampara.</p>
+          <div class="row g-4 mt-2">
+            <div class="col-6">
+              <div class="feature-pill"><i class="bi bi-eye"></i><div><strong>Abhinaya</strong><span>Expressive storytelling</span></div></div>
+            </div>
+            <div class="col-6">
+              <div class="feature-pill"><i class="bi bi-music-note-beamed"></i><div><strong>Nritta</strong><span>Pure rhythmic dance</span></div></div>
+            </div>
+            <div class="col-6">
+              <div class="feature-pill"><i class="bi bi-hand-index-thumb"></i><div><strong>Mudras</strong><span>Symbolic gestures</span></div></div>
+            </div>
+            <div class="col-6">
+              <div class="feature-pill"><i class="bi bi-stars"></i><div><strong>Bhakti</strong><span>Spiritual devotion</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- stats -->
+      <div class="row text-center stats-row g-4 mt-2">
+        <div class="col-6 col-md-3 reveal"><div class="stat"><span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span><p>Years of Legacy</p></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><span class="stat-num" data-count="200">0</span><span class="stat-plus">+</span><p>Students Trained</p></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><span class="stat-num" data-count="100">0</span><span class="stat-plus">+</span><p>Stage Performances</p></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><span class="stat-num" data-count="2">0</span><span class="stat-plus"></span><p>Academy Locations</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GURU ===== -->
+  <section class="section guru-section" id="guru">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal">
+          <div class="guru-frame">
+            <img src="images/guru.png" alt="Guru Sureka Manoj Kumar, founder of Aarudra Natiyalaya" />
+            <div class="guru-frame-glow"></div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <span class="section-eyebrow">Our Guru</span>
+          <h2 class="section-title text-start">Guru Sureka Manoj Kumar</h2>
+          <p class="guru-role">Founder &amp; Artistic Director &middot; Aarudra Natiyalaya</p>
+          <p class="section-lead text-start">A devoted exponent of Bharatanatyam, Guru Sureka Manoj Kumar has dedicated her life to teaching classical dance rooted in tradition, discipline, and devotion.</p>
+          <p>With a deep commitment to the authentic values of the art, she nurtures each student&apos;s technique, expression, and cultural understanding &mdash; guiding them patiently from their very first Adavu to a complete stage performance. Her teaching blends classical rigour with warmth, ensuring this sacred temple art thrives in every student&apos;s heart.</p>
+          <blockquote class="guru-quote">&ldquo;When the body speaks and the soul listens, that is when dance becomes divine.&rdquo;</blockquote>
+          <div class="guru-badges">
+            <span><i class="bi bi-award"></i> Traditional Parampara</span>
+            <span><i class="bi bi-hand-thumbs-up"></i> Discipline &amp; Devotion</span>
+            <span><i class="bi bi-people"></i> Personalised Training</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Moments in Motion</span>
+        <h2 class="section-title">Dance Gallery</h2>
+        <p class="section-lead mx-auto">A glimpse into the beauty, discipline, and devotion of our performances and practice.</p>
+      </div>
+      <div class="row g-3 g-md-4">
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-1.png" alt="Dancer performing an expressive abhinaya pose" /><figcaption><span>Abhinaya</span>Expression of Emotion</figcaption></figure></div>
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-2.png" alt="Two dancers in synchronized formation" /><figcaption><span>Ensemble</span>Grace in Harmony</figcaption></figure></div>
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-6.png" alt="Dancer in a dramatic spotlight pose" /><figcaption><span>Solo</span>The Divine Spotlight</figcaption></figure></div>
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-4.png" alt="Student in a dynamic leap pose in the studio" /><figcaption><span>Nritta</span>Energy in Motion</figcaption></figure></div>
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-3.png" alt="Close-up of an intricate mudra hand gesture" /><figcaption><span>Mudra</span>Language of Hands</figcaption></figure></div>
+        <div class="col-md-6 col-lg-4 reveal"><figure class="gallery-item"><img src="images/gallery-5.png" alt="Dancer posed beside an ornate temple pillar" /><figcaption><span>Tradition</span>Temple Heritage</figcaption></figure></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COURSES ===== -->
+  <section class="section courses-section" id="courses">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Learn With Us</span>
+        <h2 class="section-title">Our Courses</h2>
+        <p class="section-lead mx-auto">Structured training rooted in authentic tradition, guiding every student from their first step to a complete stage performance.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <article class="course-card">
+            <div class="course-badge"><i class="bi bi-flower2"></i></div>
+            <h3>Beginner</h3>
+            <p class="course-level">Foundation Level</p>
+            <p class="course-desc">Build strong foundations with the basics of Bharatanatyam and the discipline of the art.</p>
+            <ul class="course-list">
+              <li><i class="bi bi-check2"></i> Basic adavus</li>
+              <li><i class="bi bi-check2"></i> Hand gestures (Mudras)</li>
+              <li><i class="bi bi-check2"></i> Body posture</li>
+              <li><i class="bi bi-check2"></i> Rhythm practice</li>
+            </ul>
+            <div class="course-foot"><span class="course-price">&#8377;500<small>/month</small></span><a href="#contact" class="btn btn-outline-maroon">Enroll</a></div>
+          </article>
+        </div>
+        <div class="col-lg-4 reveal">
+          <article class="course-card course-card--featured">
+            <span class="course-tag">Most Popular</span>
+            <div class="course-badge"><i class="bi bi-flower1"></i></div>
+            <h3>Intermediate</h3>
+            <p class="course-level">Expressive Level</p>
+            <p class="course-desc">Advance into expressive repertoire, choreography, and the storytelling heart of the dance.</p>
+            <ul class="course-list">
+              <li><i class="bi bi-check2"></i> Advanced adavus</li>
+              <li><i class="bi bi-check2"></i> Expressions (Abhinaya)</li>
+              <li><i class="bi bi-check2"></i> Choreography</li>
+              <li><i class="bi bi-check2"></i> Stage performance practice</li>
+            </ul>
+            <div class="course-foot"><span class="course-price">&#8377;500<small>/month</small></span><a href="#contact" class="btn btn-gold">Enroll</a></div>
+          </article>
+        </div>
+        <div class="col-lg-4 reveal">
+          <article class="course-card">
+            <div class="course-badge"><i class="bi bi-brightness-high"></i></div>
+            <h3>Advanced</h3>
+            <p class="course-level">Performance Level</p>
+            <p class="course-desc">Master traditional compositions and prepare for a complete Bharatanatyam performance.</p>
+            <ul class="course-list">
+              <li><i class="bi bi-check2"></i> Varnam</li>
+              <li><i class="bi bi-check2"></i> Traditional compositions</li>
+              <li><i class="bi bi-check2"></i> Complete performance training</li>
+              <li><i class="bi bi-check2"></i> Full Margam repertoire</li>
+            </ul>
+            <div class="course-foot"><span class="course-price">&#8377;500<small>/month</small></span><a href="#contact" class="btn btn-outline-maroon">Enroll</a></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section class="section events-section" id="events">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Join The Celebration</span>
+        <h2 class="section-title">Events &amp; Performances</h2>
+        <p class="section-lead mx-auto">Experience the magic of live Bharatanatyam through our stage performances, cultural programs, and dance events.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-star-fill"></i></div>
+            <div class="event-body">
+              <span class="event-tag">Stage Performances</span>
+              <h3>Recitals &amp; Debuts</h3>
+              <p>Students showcase their training through solo and group recitals on prestigious stages.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-people-fill"></i></div>
+            <div class="event-body">
+              <span class="event-tag">Cultural Programs</span>
+              <h3>Festivals &amp; Temple Events</h3>
+              <p>Devotional performances at cultural festivals and temple celebrations throughout the year.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-music-note-list"></i></div>
+            <div class="event-body">
+              <span class="event-tag">Dance Events</span>
+              <h3>Workshops &amp; Competitions</h3>
+              <p>Special workshops, guest sessions, and competitions to nurture growing dancers.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCHEDULE ===== -->
+  <section class="section schedule-section" id="schedule">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Plan Your Classes</span>
+        <h2 class="section-title">Class Schedule &amp; Fees</h2>
+        <p class="section-lead mx-auto">Weekend classes designed for consistent, focused learning at both our locations.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="schedule-card">
+            <div class="schedule-icon"><i class="bi bi-calendar2-week"></i></div>
+            <h3>Saturday</h3>
+            <p class="schedule-time">6:00 PM &ndash; 7:30 PM</p>
+            <p class="schedule-note">Evening batch</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="schedule-card">
+            <div class="schedule-icon"><i class="bi bi-calendar2-week"></i></div>
+            <h3>Sunday</h3>
+            <p class="schedule-time">10:00 AM &ndash; 12:00 PM</p>
+            <p class="schedule-note">Morning batch</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="schedule-card schedule-card--fees">
+            <div class="schedule-icon"><i class="bi bi-cash-coin"></i></div>
+            <h3>Monthly Fees</h3>
+            <p class="schedule-time">&#8377;500</p>
+            <p class="schedule-note">Per month, all levels</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1 justify-content-center">
+        <div class="col-md-6 col-lg-5 reveal">
+          <div class="location-card">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>
+              <strong>Walajapet</strong>
+              <span>Bharatanatyam Classes</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5 reveal">
+          <div class="location-card">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>
+              <strong>Puthur, Panapakkam</strong>
+              <span>Bharatanatyam Classes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5 reveal">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title text-start">Begin Your Dance Journey</h2>
+          <p class="section-lead text-start">Whether you&apos;re a curious beginner or a seasoned dancer, we&apos;d love to welcome you to our parampara.</p>
+          <ul class="contact-info">
+            <li><i class="bi bi-geo-alt-fill"></i><div><strong>Locations</strong>Walajapet &nbsp;&bull;&nbsp; Puthur, Panapakkam</div></li>
+            <li><i class="bi bi-telephone-fill"></i><div><strong>Phone</strong><a href="tel:+918220413905">+91 82204 13905</a></div></li>
+            <li><i class="bi bi-envelope-fill"></i><div><strong>Email</strong><a href="mailto:madhuravikumar12@gmail.com">madhuravikumar12@gmail.com</a></div></li>
+          </ul>
+          <div class="contact-socials">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.youtube.com/@SurekaManojkumar" target="_blank" aria-label="YouTube">
+    <i class="bi bi-youtube"></i>
+</a>
+            <a href="https://wa.me/918220413905" target="_blank" aria-label="WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+</a>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 00000 00000" />
+              </div>
+              <div class="col-md-6">
+                <label for="course" class="form-label">Interested Course</label>
+                <select class="form-select" id="course" name="course">
+                  <option value="">Select a course</option>
+                  <option>Beginner</option>
+                  <option>Intermediate</option>
+                  <option>Advanced</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your dance goals..."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-gold btn-lg w-100">Send Message <i class="bi bi-send"></i></button>
+              </div>
+            </div>
+            <p class="form-success" id="formSuccess"><i class="bi bi-check-circle-fill"></i> Thank you! We&apos;ll be in touch soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-4">
+          <a class="footer-brand" href="#home"><i class="bi bi-flower1"></i> Aarudra Natiyalaya</a>
+          <p>A traditional academy dedicated to preserving and sharing the timeless art of Bharatanatyam with discipline and devotion.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#guru">Guru</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4>Courses</h4>
+          <ul>
+            <li><a href="#courses">Beginner</a></li>
+            <li><a href="#courses">Intermediate</a></li>
+            <li><a href="#courses">Advanced</a></li>
+            <li><a href="#contact">Admissions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4>Contact</h4>
+          <p class="footer-contact"><i class="bi bi-telephone-fill"></i> <a href="tel:+918220413905">+91 82204 13905</a></p>
+          <p class="footer-contact"><i class="bi bi-envelope-fill"></i> <a href="mailto:madhuravikumar12@gmail.com">madhuravikumar12@gmail.com</a></p>
+          <p class="footer-contact"><i class="bi bi-geo-alt-fill"></i> Walajapet &bull; Puthur, Panapakkam</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Aarudra Natiyalaya &middot; Bharatanatyam Classical Dance Academy<br />&copy; 2026 All Rights Reserved</p>
+        <p class="footer-motto">॥ Aangikam Bhuvanam Yasya ॥</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-chevron-up"></i></button>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
